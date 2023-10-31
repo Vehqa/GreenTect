@@ -1,4 +1,4 @@
-### Template REACT
+# Template REACT
 
 Bienvenue dans le référentiel du Modèle de Démarrage d'Applications React !
 
