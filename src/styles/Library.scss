@@ -1,0 +1,69 @@
+:root {
+    --bgColor : red;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    font-family: 'Neue Montreal';
+    color: white;
+    overflow-x: hidden;
+    /* Hide scrollbars */
+}
+
+/* Fonts */
+
+
+
+/* Library */
+
+h1,
+h2 {
+    font-family: 'Gallery Modern';
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 100;
+    margin: 0;
+
+    @media (max-width: 800px) {
+        font-size: 60px;
+    }
+}
+
+h3 {
+    font-family: 'Gallery Modern';
+    font-size: 32px;
+    font-weight: 100;
+    margin: 0;
+}
+
+h4 {
+    font-family: 'Gallery Modern';
+    font-size: 24px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    opacity: 0.8;
+}
