@@ -1,5 +1,13 @@
 :root {
-    --bgColor : red;
+    --bgColor: #364436;
+    --xxxl-sizing: 130px;
+    --xxl-sizing: 100px;
+    --xl-sizing: 80px;
+    --s-sizing: 20px;
+    --xs-sizing: 16px;
+    --default-sizing: 40px;
+    --padding-xl: 70px;
+
 }
 
 *{
@@ -8,13 +16,8 @@
     box-sizing: border-box;
 }
 
-
-html {
-    scroll-behavior: smooth;
-}
-
 body {
-    background-color: black;
+    background-color: var(--bgColor);
     font-family: 'Neue Montreal';
     color: white;
     overflow-x: hidden;
@@ -42,7 +45,7 @@ h2 {
 
 h3 {
     font-family: 'Gallery Modern';
-    font-size: 32px;
+    font-size: 66px;
     font-weight: 100;
     margin: 0;
 }
@@ -66,4 +69,8 @@ p {
     font-size: 14px;
     line-height: 1.6;
     opacity: 0.8;
+}
+
+li {
+    list-style: none;
 }

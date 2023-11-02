@@ -1,15 +1,18 @@
 import './styles/App.scss';
 import './styles/Library.scss';
 import { Routes, Route } from "react-router-dom";
-import Page1 from './pages/Page1';
 import Home from './Home';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
+
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/page1" element={<Page1 />} />
-    </Routes>
+    <ParallaxProvider>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </ParallaxProvider>
   );
 }
 
