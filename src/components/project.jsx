@@ -91,17 +91,17 @@ function Project() {
 
 
                 <div className='project__list' data-aos="fade-left">
-                    <div className='project__list-img'>
-                        <img src={project3} alt='treehouse' data-aos="fade-right"></img>
+                    <div className='project__list-img' data-aos="fade-left">
+                        <img src={project3} alt='treehouse' data-aos="fade-left"></img>
                     </div>
-                    <div className='project__list-text' data-aos="fade-right">
+                    <div className='project__list-text' data-aos="fade-left">
                         <h4>Maison française</h4>
                         <a href='/'><img src={next} alt='next'></img></a>
                     </div>
-                    <div className='project__list-img'>
-                        <img src={project4} alt='treehouse' data-aos="fade-right"></img>
+                    <div className='project__list-img' data-aos="fade-left">
+                        <img src={project4} alt='treehouse' data-aos="fade-left"></img>
                     </div>
-                    <div className='project__list-text' data-aos="fade-right">
+                    <div className='project__list-text' data-aos="fade-left">
                         <h4>Maison flottante</h4>
                         <a href='/'><img src={next} alt='next'></img></a>
                     </div>

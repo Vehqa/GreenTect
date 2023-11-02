@@ -11,11 +11,12 @@ const StyledPrview = styled.div `
         margin: var(--xxxl-sizing);
         margin-top: var(--default-sizing);
         z-index: -1;
+        padding-top: var(--default-sizing);
     }
 
     .preview__showcase{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         margin-left: var(--xl-sizing);
         margin-right: var(--xl-sizing);
         &-img {
@@ -81,14 +82,11 @@ function Preview () {
                     <li className='preview__list-link'>Educations</li>
                 </ul>
             </div>
-            <div data-aos="zoom-in">
+            <div data-aos="zoom-in" className='preview__showcase-images'>
                 <img className='preview__showcase-img' src={resi}  alt='maison résidentiel'></img>
+                <p className='preview__subtitle-title' >La Maison cube de bois</p>
+                <a href='/' className='preview__subtitle-next' data-aos="slide-up">En savoir plus </a>
             </div> 
-        </div>
-        <div className='preview__subtitle' data-aos="flip-down">
-            <p>Maison résidentiel <br/> Sud de france</p>
-            <p className='preview__subtitle-title'>La Maison cube de bois</p>
-            <p className='preview__subtitle-next'>En savoir plus </p>
         </div>
     </StyledPrview>
     )
